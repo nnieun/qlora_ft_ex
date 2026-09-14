@@ -1,3 +1,41 @@
+# git clone 받았을 때
+
+```
+uv sync
+```
+오래걸림 
+
+```
+uv run jupyter lab
+```
+주피터 노트북에서 
+
+venv 선택하기 
+![alt text](image.png)
+
+(지금 다른 가상환경을 잡혔을때)
+
+
+```
+cd /mnt/c/worksapces/gg1th_qlora_ft_ex
+uv run python -m ipykernel install --user --name=gg1th-qlora
+```
+후 주피터 노트북 재시작 후 가상환경 선택하기
+
+### ollama
+
+```
+systemctl status ollama
+```
+
+
+### 허깅페이스 다운로드 했던 모델 리스트 확인 
+
+```
+ls ~/.cache/huggingface/hub
+```
+
+
 # lora_finetuning
 
 ## GPU(CUDA) 환경 셋팅 (처음부터)
