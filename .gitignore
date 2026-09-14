@@ -1,0 +1,75 @@
+output/
+outputs/
+docs_임시/
+.claude/
+.ipynb_checkpoints/
+kogpt2-cat-senior/
+kogpt2-guild-assistant/
+kogpt2-hoi-simple/
+lora_adapters/
+llama.cpp/
+results/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Type checker / linter cache
+.mypy_cache/
+.pyright/
+.ruff_cache/
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / editor
+.vscode/
+.idea/
+
+# Local data
+data/
+*.csv
+*.xlsx
+*.db
+*.sqlite3
+
+# Model / large files
+models/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
