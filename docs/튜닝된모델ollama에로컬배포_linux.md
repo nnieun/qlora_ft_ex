@@ -63,7 +63,9 @@ qlora_ft_ex/outputs/mymodel
 ```
 cd qlora_ft_ex
 
-python ./llama.cpp/convert_hf_to_gguf.py ./outputs/mymodel --outfile ./outputs/mymodel-f16.gguf --outtype f16
+python ./llama.cpp/convert_hf_to_gguf.py ./outputs/mymodel \
+  --outfile ./outputs/mymodel-f16.gguf \
+  --outtype f16
 ```
 
 [참고]
@@ -149,7 +151,7 @@ PARAMETER num_predict 160
 
 - Ollama에 모델 등록
 ```
-ollama create sageuk-qwen -f /mnt/e/gg_ai_merbership_1th/qlora_ft_ex/outputs/ollama_sageuk/Modelfile
+ollama create sageuk-qwen -f /home/aiuser/gg1th_qlora_ft_ex/outputs/ollama_sageuk/Modelfile
 ```
 
 9. 등록 확인하기

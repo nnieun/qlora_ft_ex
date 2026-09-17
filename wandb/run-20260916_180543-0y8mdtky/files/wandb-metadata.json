@@ -1,0 +1,39 @@
+{
+  "os": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "python": "CPython 3.12.3",
+  "startedAt": "2026-09-16T09:05:43.228988Z",
+  "program": "5.qlora_.ipynb",
+  "codePath": "5.qlora_.ipynb",
+  "codePathLocal": "5.qlora_.ipynb",
+  "git": {
+    "remote": "git@github.com:nnieun/qlora_ft_ex.git",
+    "commit": "e274f1862ed25a190bf7244fa4079dec7899d0fe"
+  },
+  "email": "nakana216@gmail.com",
+  "root": "/mnt/c/worksapces/gg1th_qlora_ft_ex",
+  "host": "DESKTOP-M2FPA8S",
+  "executable": "/mnt/c/worksapces/gg1th_qlora_ft_ex/.venv/bin/python3",
+  "cpu_count": 8,
+  "cpu_count_logical": 16,
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "1081101176832",
+      "used": "76474736640"
+    }
+  },
+  "memory": {
+    "total": "16613265408"
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+      "memoryTotal": "8585740288",
+      "architecture": "Ada",
+      "uuid": "GPU-517798c7-3b10-d070-54c1-8c8e54cadbbc"
+    }
+  ],
+  "cudaVersion": "12.7",
+  "writerId": "s6065nn6mn7hvqoxy38x3le7ehjfbflm"
+}
